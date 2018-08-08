@@ -1,3 +1,3 @@
-def prime?(integer)
-  
+def prime?(n)
+    
 end
