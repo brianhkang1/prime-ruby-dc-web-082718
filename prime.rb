@@ -3,5 +3,5 @@ def prime?(n)
     false  
   elsif n <= 3
     true
-  elsif 
+  elsif Integer.sqrt(n)
 end
