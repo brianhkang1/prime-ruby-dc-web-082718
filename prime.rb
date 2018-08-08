@@ -3,10 +3,9 @@ def prime?(n)
     false  
   elsif n <= 3
     true
-  end
-  
-  if 3**(n-1) % n != 1 
+  elsif 3**(n-1) % n != 1 
     false 
-  else true 
+  else 
+    true 
   end
 end
