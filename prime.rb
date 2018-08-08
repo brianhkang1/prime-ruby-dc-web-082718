@@ -3,5 +3,5 @@ def prime?(n)
     false  
   elsif n <= 3
     true
-  elsif 3**(n-1)
+  elsif 3**(n-1) % n 
 end
